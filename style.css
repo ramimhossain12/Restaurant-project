@@ -122,8 +122,8 @@ nav ul li a:hover {
     border: none;
     border-radius: 5px;
     font-size: 1.3rem;
-     background-color: white;
-    color: black;
+    background: rgb(0, 128, 0);
+    color: white;
     text-transform: uppercase;
     transition: .4s;
 }
@@ -132,45 +132,28 @@ nav ul li a:hover {
 }
 /* banner ends here  */
 
-
-
-/* about st  */
-
-#about-us{
-    padding: 2%;
-
+/* about-us starts here  */
+#about-us {
+    padding: 1%;
 }
-
-.about-us-contents{
+.about-us-contents {
     text-align: center;
 }
-
-.about-us-contents h1{
-  
-   font-weight: bolder;
-   font-size: 2rem;
-   margin-bottom: 10px;
-
+.about-us-contents h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: bolder;
 }
-
-.about-us-contents p{
-  
-   font-weight: bolder;
-   font-size: 0.9rem;
-   margin-bottom: 10px;
-
+.about-us-contents p {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
 }
+/* about-us ends here  */
 
-
-
-
-
-
-
-
-
-
- 
+/* menu-section starts here  */
+#menu-section {
+    padding: 1%;
+}
 .card-body {
     text-align: center;
 }
